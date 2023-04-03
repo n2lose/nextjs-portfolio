@@ -1,10 +1,11 @@
 {
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
-  "/personalblog": "pages/personalblog.js",
-  "/": "pages/index.js",
-  "/shopify": "pages/shopify.js",
+  "/": "pages/index.html",
+  "/personalblog": "pages/personalblog.html",
+  "/property": "pages/property.html",
+  "/shopify": "pages/shopify.html",
   "/_error": "pages/_error.js",
-  "/todoApp": "pages/todoApp.js",
-  "/property": "pages/property.js"
+  "/todoApp": "pages/todoApp.html",
+  "/404": "pages/404.html"
 }
