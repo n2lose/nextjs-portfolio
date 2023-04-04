@@ -52,29 +52,25 @@ const Navbar = () => {
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Link href="/">
-          <Image
-            src={require('/public/assets/logo.png')}
-            alt=""
-            width={87}
-            height={35}
-          />
+          <h2>Lam Nguyen</h2>
+          <h5 className='uppercase text-center'>Javascript developer</h5>          
         </Link>
         <div>
           <ul className="hidden md:flex" style={{color: `${linkColor}`}}>
-            <li className="ml-10 text-sm uppercase hover:border-b">
-              <Link href="/">Home</Link>
+            <li>
+              <Link className="ml-10 text-sm uppercase hover:border-black" href="/">Home</Link>
             </li>
-            <li className="ml-10 text-sm uppercase hover:border-b">
-              <Link href="/#about">About</Link>
+            <li>
+              <Link className="ml-10 text-sm uppercase hover:border-black" href="/#about">About</Link>
             </li>
-            <li className="ml-10 text-sm uppercase hover:border-b">
-              <Link href="/#skills">Skills</Link>
+            <li>
+              <Link className="ml-10 text-sm uppercase hover:border-black" href="/#skills">Skills</Link>
             </li>
-            <li className="ml-10 text-sm uppercase hover:border-b">
-              <Link href="/#projects">Projects</Link>
+            <li>
+              <Link className="ml-10 text-sm uppercase hover:border-black" href="/#projects">Projects</Link>
             </li>
-            <li className="ml-10 text-sm uppercase hover:border-b">
-              <Link href="/#contact">Contact</Link>
+            <li>
+              <Link className="ml-10 text-sm uppercase hover:border-black" href="/#contact">Contact</Link>
             </li>
           </ul>
           <div className="md:hidden" onClick={toggleNav}>
