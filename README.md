@@ -1,7 +1,7 @@
 # My Portfolio
 
 This is a demo portfolio website built with Next.js, TypeScript, and Tailwind CSS. The website showcases my projects, skills, and experience as a software developer.
-https://nextjs-portfolio-bq6jd4x3t-lamnt8x-gmailcom.vercel.app/?vercelToolbarCode=5AfFKkYo0-YwFYg
+https://nextjs-portfolio-bq6jd4x3t-lamnt8x-gmailcom.vercel.app
 
 # Feature
 
